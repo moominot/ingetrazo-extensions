@@ -1,5 +1,5 @@
 id = "dc_tools"
-version = "0.3.0"
+version = "0.3.1"
 author = "moominot"
 author_url = "https://github.com/moominot"
 
@@ -7,8 +7,8 @@ license = "GPL-3.0-or-later"
 
 repository = "https://github.com/moominot/ingetrazo-skp-dc-import"
 
-download = "https://raw.githubusercontent.com/moominot/ingetrazo-skp-dc-import/f09a647b7c04107a9c9a0070711259ca6d2a7799/releases/dc_tools-0.3.0.zip"
-sha256 = "fb4f08d55f7b4d8c3dbb02aa5a9b2bb21301f8f6b27f2679c38bdaeae04ba953"
+download = "https://raw.githubusercontent.com/moominot/ingetrazo-skp-dc-import/bcdf1508b6246c988aecd326585e4803e7316864/releases/dc_tools-0.3.1.zip"
+sha256 = "f03d1818f0603a2714a56bed56507667625719be200c90c9fc74e1f8ed25a815"
 
 ingetrazo = "0.6.2"
 
@@ -20,6 +20,6 @@ en = "Dynamic components"
 pt = "Componentes dinâmicos"
 
 [summary]
-es = "Opciones, atributos y fórmulas de componentes dinámicos al estilo SketchUp: crea componentes con fórmulas, cambia sus opciones y se redibujan como en SketchUp. Con ayuda (?) que explica cada función."
-en = "SketchUp-style dynamic components: options, attributes and formulas. Make components with formulas, change their options and they redraw as in SketchUp. A ? button explains every function."
-pt = "Componentes dinâmicos ao estilo SketchUp: opções, atributos e fórmulas. Crie componentes com fórmulas, mude as opções e eles se redesenham como no SketchUp. Um botão ? explica cada função."
+es = "Opciones, atributos y fórmulas de componentes dinámicos al estilo SketchUp: crea componentes con fórmulas, cambia sus opciones y se redibujan como en SketchUp, también dentro de un grupo abierto. Con ayuda (?) que explica cada función."
+en = "SketchUp-style dynamic components: options, attributes and formulas. Make components with formulas, change their options and they redraw as in SketchUp, also inside an open group. A ? button explains every function."
+pt = "Componentes dinâmicos ao estilo SketchUp: opções, atributos e fórmulas. Crie componentes com fórmulas, mude as opções e eles se redesenham como no SketchUp, também dentro de um grupo aberto. Um botão ? explica cada função."
