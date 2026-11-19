@@ -1,0 +1,25 @@
+id = "dc_tools"
+version = "0.3.0"
+author = "moominot"
+author_url = "https://github.com/moominot"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/moominot/ingetrazo-skp-dc-import"
+
+download = "https://raw.githubusercontent.com/moominot/ingetrazo-skp-dc-import/f09a647b7c04107a9c9a0070711259ca6d2a7799/releases/dc_tools-0.3.0.zip"
+sha256 = "fb4f08d55f7b4d8c3dbb02aa5a9b2bb21301f8f6b27f2679c38bdaeae04ba953"
+
+ingetrazo = "0.6.2"
+
+tags = ["drawing", "productivity"]
+
+[name]
+es = "Componentes dinámicos"
+en = "Dynamic components"
+pt = "Componentes dinâmicos"
+
+[summary]
+es = "Opciones, atributos y fórmulas de componentes dinámicos al estilo SketchUp: crea componentes con fórmulas, cambia sus opciones y se redibujan como en SketchUp. Con ayuda (?) que explica cada función."
+en = "SketchUp-style dynamic components: options, attributes and formulas. Make components with formulas, change their options and they redraw as in SketchUp. A ? button explains every function."
+pt = "Componentes dinâmicos ao estilo SketchUp: opções, atributos e fórmulas. Crie componentes com fórmulas, mude as opções e eles se redesenham como no SketchUp. Um botão ? explica cada função."

@@ -1,0 +1,25 @@
+id = "skp_dc_import"
+version = "0.6.0"
+author = "moominot"
+author_url = "https://github.com/moominot"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/moominot/ingetrazo-skp-dc-import"
+
+download = "https://raw.githubusercontent.com/moominot/ingetrazo-skp-dc-import/f09a647b7c04107a9c9a0070711259ca6d2a7799/releases/skp_dc_import-0.6.0.zip"
+sha256 = "62efbe698d8d07e81a83e3f23e3c5aec66a0f991764cbeba85354fe34b6d1bdc"
+
+ingetrazo = "0.6.2"
+
+tags = ["import-export"]
+
+[name]
+es = "Archivos SketchUp con componentes"
+en = "SketchUp files with components"
+pt = "Arquivos SketchUp com componentes"
+
+[summary]
+es = "Abre un .skp conservando su árbol de componentes y sus datos de componentes dinámicos, y exporta el dibujo a .skp. La exportación pide un .skp en blanco, que no se incluye (se descarga desde OpenSKP o se elige un archivo)."
+en = "Opens a .skp keeping its component tree and its Dynamic Components data, and exports the drawing to .skp. Exporting needs a blank .skp that is not included (downloaded from OpenSKP, or chosen as a file)."
+pt = "Abre um .skp mantendo a árvore de componentes e os dados de componentes dinâmicos, e exporta o desenho para .skp. A exportação precisa de um .skp em branco, não incluído (baixado do OpenSKP ou escolhido como arquivo)."

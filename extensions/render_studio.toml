@@ -1,0 +1,25 @@
+id = "render_studio"
+version = "0.9.0"
+author = "moominot"
+author_url = "https://github.com/moominot"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/moominot/ingetrazo-render-studio"
+
+download = "https://raw.githubusercontent.com/moominot/ingetrazo-render-studio/d3c6f0a0c4353db9806e99dba5b65a26fa6421a6/releases/render_studio-0.9.0.zip"
+sha256 = "735889365856e37dc131cfcaccaacdbdbc111874b7bec671db7f4a5c95cd6e37"
+
+ingetrazo = "0.6.2"
+
+tags = ["rendering"]
+
+[name]
+es = "Render Studio"
+en = "Render Studio"
+pt = "Render Studio"
+
+[summary]
+es = "Renders estilo Enscape con Blender: looks (día, hora dorada, interior, noche…), exposición automática, vista en vivo, editor de materiales (relieve, agua, transparencia, cambio de imagen) y ajustes guardados en el documento."
+en = "Enscape-like renders with Blender: looks (day, golden hour, interior, night…), automatic exposure, a live view, a material editor (relief, water, transparency, change picture) and settings saved in the document."
+pt = "Renders ao estilo Enscape com Blender: looks (dia, hora dourada, interior, noite…), exposição automática, vista ao vivo, editor de materiais (relevo, água, transparência, troca de imagem) e ajustes salvos no documento."
