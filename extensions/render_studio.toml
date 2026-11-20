@@ -1,0 +1,32 @@
+id = "render_studio"
+version = "0.11.0"
+author = "moominot"
+author_url = "https://github.com/moominot"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/moominot/ingetrazo-render-studio"
+
+# The packaged extension under the release's tag.
+download = "https://raw.githubusercontent.com/moominot/ingetrazo-render-studio/v0.11.0/releases/render_studio-0.11.0.zip"
+sha256 = "5d0c15040fe7b131e92ffafdab61041af5f18b50ef2197b83f8a545970fdc095"
+
+ingetrazo = "0.6.2.1"
+
+tags = ["rendering", "architecture"]
+screenshot = "render_studio.webp"
+
+[name]
+es = "Render Studio"
+en = "Render Studio"
+pt = "Render Studio"
+
+[summary]
+es = "Renders fotográficos con Blender: elige un ambiente (día, atardecer, nublado, interior, noche…), míralo en una vista previa en vivo, renderiza y retoca la imagen sin volver a renderizar."
+en = "Photographic renders with Blender: pick a look (clear day, golden hour, overcast, interior, night…), watch it in a live preview, render, then fine-tune the picture without rendering again."
+pt = "Renders fotográficos com Blender: escolha um ambiente (dia claro, pôr do sol, nublado, interior, noite…), veja-o numa prévia ao vivo, renderize e retoque a imagem sem renderizar de novo."
+
+[description]
+es = "Usa el mismo Blender que la pestaña Render de IngeTrazo (4.2 o posterior), con EEVEE o Cycles. Siete ambientes con cielo físico, nubes, sol coloreado según su altura, exposición automática, tono AgX, neblina de distancia y un acabado fotográfico; o un fondo 360° (HDRI) que ilumina la escena. Un editor de materiales sencillo con vista previa en un cubo: preajustes (yeso, madera, piedra, metal, vidrio, agua, panel luminoso…), rugosidad, metal, relieve, brillo propio, transparencia, agua con ondas y césped con briznas reales en el render. Reconoce los materiales por su nombre (agua, vidrio, césped…) y usa los juegos de texturas PBR completos (normal, rugosidad, AO…) de Poly Haven y ambientCG. Los ajustes se guardan en el documento .igz."
+en = "Uses the same Blender as IngeTrazo's Render tab (4.2 or newer), with EEVEE or Cycles. Seven looks with a physical sky, clouds, a sun coloured by its height, automatic exposure, AgX tone mapping, distance haze and a photographic finish; or a 360° background (HDRI) that lights the scene. A simple material editor with a cube preview: presets (plaster, wood, stone, metal, glass, water, light panel…), roughness, metal, relief, glow, transparency, rippled water, and grass that grows real blades in the render. Materials are recognised by their name (water, glass, lawn…), and full PBR texture sets (normal, roughness, AO…) from Poly Haven and ambientCG are used. The settings are saved in the .igz document."
+pt = "Usa o mesmo Blender da aba Render do IngeTrazo (4.2 ou posterior), com EEVEE ou Cycles. Sete ambientes com céu físico, nuvens, sol colorido pela sua altura, exposição automática, tom AgX, névoa de distância e acabamento fotográfico; ou um fundo 360° (HDRI) que ilumina a cena. Um editor de materiais simples com prévia num cubo: predefinições (reboco, madeira, pedra, metal, vidro, água, painel luminoso…), rugosidade, metal, relevo, brilho, transparência, água com ondulações e grama com folhas reais no render. Reconhece os materiais pelo nome (água, vidro, grama…) e usa os conjuntos de texturas PBR completos (normal, rugosidade, AO…) do Poly Haven e do ambientCG. As configurações ficam salvas no documento .igz."

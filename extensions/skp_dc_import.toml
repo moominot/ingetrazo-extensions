@@ -1,0 +1,32 @@
+id = "skp_dc_import"
+version = "0.6.3"
+author = "moominot"
+author_url = "https://github.com/moominot"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/moominot/ingetrazo-skp-dc-import"
+
+# The packaged extension, pinned by commit (the repository holds three extensions).
+download = "https://raw.githubusercontent.com/moominot/ingetrazo-skp-dc-import/d06569bdb0a4ab3d661f884eabe4b8e859e6b892/releases/skp_dc_import-0.6.3.zip"
+sha256 = "976d519283c59e2829023533a2ca8792fc0ce89d21c778a26bcbd4fee2c9c364"
+
+ingetrazo = "0.6.2.1"
+
+tags = ["import-export", "architecture"]
+screenshot = "skp_dc_import.webp"
+
+[name]
+es = "Archivos SketchUp con componentes"
+en = "SketchUp files with components"
+pt = "Arquivos SketchUp com componentes"
+
+[summary]
+es = "Importa un .skp conservando su árbol de componentes y los atributos de sus componentes dinámicos, y exporta el documento como .skp (formato 2017) con componentes que siguen siendo dinámicos en SketchUp."
+en = "Import a .skp keeping its component tree and its dynamic components' attributes, and export the document as a .skp (2017 format) whose components are still dynamic in SketchUp."
+pt = "Importa um .skp mantendo a árvore de componentes e os atributos dos componentes dinâmicos, e exporta o documento como .skp (formato 2017) com componentes que continuam dinâmicos no SketchUp."
+
+[description]
+es = "Cada pieza llega como un componente anidado de IngeTrazo, con sus atributos, fórmulas y opciones en el formato del propio SketchUp; con la extensión «Componentes dinámicos» se editan y se redibujan. La exportación escribe grupos, componentes, materiales y texturas, piezas ocultas y los datos dinámicos de cada pieza; comprobado abriendo los archivos en SketchUp 2026. Exportar necesita el .skp en blanco de OpenSKP, que no se incluye: en Ajustes .skp se descarga (commit fijo, comprobado por su SHA-256) o se elige una copia propia. Lleva su propia copia de OpenSKP (MIT) con los diccionarios de definición añadidos. Ayuda con el botón ?."
+en = "Every part comes in as a nested IngeTrazo component, with its attributes, formulas and options in SketchUp's own format; with the «Dynamic components» extension they can be edited and redrawn. The export writes groups, components, materials and textures, hidden parts and every part's dynamic data; checked by opening the files in SketchUp 2026. Exporting needs OpenSKP's blank .skp, which is not included: .skp settings downloads it (fixed commit, checked by its SHA-256) or takes a copy you have. Carries its own OpenSKP (MIT) with definition dictionaries added. Help behind the ? button."
+pt = "Cada peça chega como um componente aninhado do IngeTrazo, com seus atributos, fórmulas e opções no formato do próprio SketchUp; com a extensão «Componentes dinâmicos» eles podem ser editados e redesenhados. A exportação grava grupos, componentes, materiais e texturas, peças ocultas e os dados dinâmicos de cada peça; verificado abrindo os arquivos no SketchUp 2026. Exportar precisa do .skp em branco do OpenSKP, que não está incluído: em Configurações .skp ele é baixado (commit fixo, verificado pelo SHA-256) ou se escolhe uma cópia própria. Traz sua própria cópia do OpenSKP (MIT) com os dicionários de definição adicionados. Ajuda no botão ?."

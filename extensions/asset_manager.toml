@@ -1,0 +1,32 @@
+id = "asset_manager"
+version = "0.2.0"
+author = "moominot"
+author_url = "https://github.com/moominot"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/moominot/ingetrazo-skp-dc-import"
+
+# The packaged extension, pinned by commit (the repository holds three extensions).
+download = "https://raw.githubusercontent.com/moominot/ingetrazo-skp-dc-import/d06569bdb0a4ab3d661f884eabe4b8e859e6b892/releases/asset_manager-0.2.0.zip"
+sha256 = "02fc59ff5d0ad76eaf8c924f5de03f2da96622a8c7629f6d6b3a9e5cd1ff2197"
+
+ingetrazo = "0.6.2.1"
+
+tags = ["productivity", "rendering", "architecture"]
+screenshot = "asset_manager.webp"
+
+[name]
+es = "Gestor de componentes"
+en = "Components manager"
+pt = "Gerenciador de componentes"
+
+[summary]
+es = "Una pestaña con los componentes del dibujo (vista previa, recuento, seleccionar todas las instancias), tu propio catálogo de .igz y .skp, y recursos libres de Poly Haven y ambientCG: HDRI, materiales PBR y modelos 3D."
+en = "A tab with the components in the drawing (preview, count, select every instance), your own catalog of .igz and .skp files, and free assets from Poly Haven and ambientCG: HDRIs, PBR materials and 3-D models."
+pt = "Uma aba com os componentes do desenho (prévia, contagem, selecionar todas as instâncias), seu próprio catálogo de .igz e .skp e recursos livres do Poly Haven e do ambientCG: HDRIs, materiais PBR e modelos 3D."
+
+[description]
+es = "En el dibujo: cada componente una vez, con su vista previa y cuántos hay (⚙ en los dinámicos); seleccionar todas sus instancias o arrastrar una copia a la vista. Mi catálogo: tus carpetas de .igz y .skp, vigiladas en tiempo real si quieres, de modo que lo que descargas en ellas aparece al momento; entiende .zip y juegos de materiales descargados de cualquier web. En línea: recursos CC0 de Poly Haven y ambientCG; los HDRI pasan a ser el fondo 360° de Render Studio, los materiales cargan el bote de pintura con todos sus mapas y su tamaño real, y los modelos 3D se colocan con el cursor. Solo se conecta a los servidores de cada fuente, por https, y las descargas se comprueban y se reutilizan. Un .skp arrastrado a la vista se importa conservando sus componentes si está instalada la extensión «Archivos SketchUp»."
+en = "In drawing: every component once, with a preview and how many there are (⚙ on dynamic ones); select every instance or drag a copy onto the view. My catalog: your folders of .igz and .skp files, watched in real time if you like, so what you download into them shows at once; .zip files and material sets downloaded from any site are understood. Online: CC0 assets from Poly Haven and ambientCG; HDRIs become Render Studio's 360° background, materials load the paint bucket with all their maps at their real size, and 3-D models follow the cursor to be placed. Each source is reached only on its own servers, over https, and downloads are checked and reused. A .skp dragged onto the view keeps its components when the «SketchUp files» extension is installed."
+pt = "No desenho: cada componente uma vez, com prévia e quantos há (⚙ nos dinâmicos); selecionar todas as instâncias ou arrastar uma cópia para a vista. Meu catálogo: suas pastas de .igz e .skp, vigiadas em tempo real se quiser, de modo que o que você baixa nelas aparece na hora; entende .zip e conjuntos de materiais baixados de qualquer site. On-line: recursos CC0 do Poly Haven e do ambientCG; os HDRIs viram o fundo 360° do Render Studio, os materiais carregam o balde de tinta com todos os mapas no tamanho real e os modelos 3D seguem o cursor para serem colocados. Cada fonte é acessada só nos seus próprios servidores, por https, e os downloads são verificados e reutilizados. Um .skp arrastado para a vista mantém seus componentes quando a extensão «Arquivos SketchUp» está instalada."

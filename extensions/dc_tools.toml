@@ -1,0 +1,32 @@
+id = "dc_tools"
+version = "0.3.4"
+author = "moominot"
+author_url = "https://github.com/moominot"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/moominot/ingetrazo-skp-dc-import"
+
+# The packaged extension, pinned by commit (the repository holds three extensions).
+download = "https://raw.githubusercontent.com/moominot/ingetrazo-skp-dc-import/d06569bdb0a4ab3d661f884eabe4b8e859e6b892/releases/dc_tools-0.3.4.zip"
+sha256 = "49f82c69fafb7fc29907d739049e0329b6356c8159847a047a299b831944230e"
+
+ingetrazo = "0.6.2.1"
+
+tags = ["productivity", "architecture", "fabrication"]
+screenshot = "dc_tools.webp"
+
+[name]
+es = "Componentes dinámicos (formato SketchUp)"
+en = "Dynamic components (SketchUp format)"
+pt = "Componentes dinâmicos (formato SketchUp)"
+
+[summary]
+es = "Opciones y atributos de componentes dinámicos con fórmulas, en el mismo formato que los Dynamic Components de SketchUp: cambia el ancho o el número de estantes y el componente se redibuja."
+en = "Options and attributes of dynamic components with formulas, in the same format as SketchUp's Dynamic Components: change the width or the number of shelves and the component redraws itself."
+pt = "Opções e atributos de componentes dinâmicos com fórmulas, no mesmo formato dos Dynamic Components do SketchUp: mude a largura ou o número de prateleiras e o componente se redesenha."
+
+[description]
+es = "Dos paneles. Opciones del componente: lo que el componente muestra a quien lo usa (campos, listas, valores con unidades); Aplicar lo redibuja con copias, piezas ocultas, tamaños, posiciones, giros y materiales, como SketchUp. Atributos del componente: «Hacer dinámico» y, para cada pieza, atributos con valor o =fórmula (X, LenX, RotZ, Hidden, Copies…, o los tuyos), con ayuda de todas las funciones. Escalar un componente dinámico lo redibuja a su nuevo tamaño en vez de estirarlo. Funciona también dentro de un grupo abierto (Parent!LenX). Comparado con el motor de SketchUp 2026 en componentes reales (unas 1.900 fórmulas). No necesita ningún archivo .skp; con la extensión «Archivos SketchUp» se importan y exportan. El intérprete de fórmulas parte del de Dynamic Components de d1rty-pixel."
+en = "Two panels. Component Options: what the component shows its users (fields, lists, values in their units); Apply redraws it with copies, hidden parts, sizes, positions, rotations and materials, as SketchUp does. Component Attributes: Make dynamic, then per part attributes with a value or a =formula (X, LenX, RotZ, Hidden, Copies…, or your own), with help for every function. Scaling a dynamic component redraws it at its new size instead of stretching it. Works inside an open group too (Parent!LenX). Checked against SketchUp 2026's own engine on real components (about 1,900 formulas). Needs no .skp file; with the «SketchUp files» extension they are imported and exported. The formula interpreter builds on d1rty-pixel's Dynamic Components."
+pt = "Dois painéis. Opções do componente: o que o componente mostra a quem o usa (campos, listas, valores com unidades); Aplicar o redesenha com cópias, peças ocultas, tamanhos, posições, rotações e materiais, como o SketchUp. Atributos do componente: «Tornar dinâmico» e, para cada peça, atributos com valor ou =fórmula (X, LenX, RotZ, Hidden, Copies…, ou os seus), com ajuda de todas as funções. Escalar um componente dinâmico o redesenha no novo tamanho em vez de esticá-lo. Funciona também dentro de um grupo aberto (Parent!LenX). Comparado com o motor do SketchUp 2026 em componentes reais (cerca de 1.900 fórmulas). Não precisa de nenhum arquivo .skp; com a extensão «Arquivos SketchUp» eles são importados e exportados. O interpretador de fórmulas parte do Dynamic Components de d1rty-pixel."
